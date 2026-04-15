@@ -42,10 +42,13 @@ ConvMLP_LiDAR_Code/
 🗺️ Experimental Environments
 
 <p align="center">
+  ##Map1
   <img src="Assets/Map1.png" width="30%">
+  ##Map2
   <img src="Assets/Map2.png" width="30%">
 </p>
 <p align="center">
+  ##Map3
   <img src="Assets/Map3_real_image.png" width="30%" height = "30%">
   <img src="Assets/Figure_7.png" width="30%">
 </p>
