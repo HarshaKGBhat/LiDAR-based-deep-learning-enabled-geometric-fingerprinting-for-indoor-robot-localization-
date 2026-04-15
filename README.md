@@ -43,17 +43,13 @@ ConvMLP_LiDAR_Code/
 Place your 3 environment images inside Assets/ and reference them like this:
 
 <p align="center">
-  <img src="Assets/env_map1.png" width="30%">
-  <img src="Assets/env_map2.png" width="30%">
-  <img src="Assets/env_map3.png" width="30%">
+  <img src="Assets/map1.png" width="30%">
+  <img src="Assets/map2.png" width="30%">
+  <img src="Assets/map3_real_image.png" width="30%">
+  <img src="Assets/Figure_7.png" width="30%">
 </p>
 
 
-
-
-
-
-
 
 🚀 How to Run the Full Pipeline
 This section explains how to run each phase.
