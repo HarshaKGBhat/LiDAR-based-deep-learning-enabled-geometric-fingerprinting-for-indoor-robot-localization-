@@ -43,9 +43,9 @@ ConvMLP_LiDAR_Code/
 Place your 3 environment images inside Assets/ and reference them like this:
 
 <p align="center">
-  <img src="Assets/map1.png" width="30%">
-  <img src="Assets/map2.png" width="30%">
-  <img src="Assets/map3_real_image.png" width="30%">
+  <img src="Assets/Map1.png" width="30%">
+  <img src="Assets/Map2.png" width="30%">
+  <img src="Assets/Map3_real_image.png" width="30%">
   <img src="Assets/Figure_7.png" width="30%">
 </p>
 
