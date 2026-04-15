@@ -42,19 +42,31 @@ ConvMLP_LiDAR_Code/
 🗺️ Experimental Environments
 
 <p align="center">
-  <figure align = "center">
-  <img src="Assets/Map1.png" width="30%">
-  <figcaption align="center"><b>Map 1</b></figcaption>
+
+  <figure style="display:inline-block; text-align:center; margin: 10px;">
+    <img src="Assets/map1.png" width="40%">
+    <figcaption><b>Map 1</b></figcaption>
   </figure>
 
-  ### Map2
-  <img src="Assets/Map2.png" width="30%">
+  <figure style="display:inline-block; text-align:center; margin: 10px;">
+    <img src="Assets/map2.png" width="40%">
+    <figcaption><b>Map 2</b></figcaption>
+  </figure>
+
 </p>
+
 <p align="center">
-  ### Map3 Real Image
-  <img src="Assets/Map3_real_image.png" width="30%" height = "30%">
-  ### Map3 Rviz Image
-  <img src="Assets/Figure_7.png" width="30%">
+
+  <figure style="display:inline-block; text-align:center; margin: 10px;">
+    <img src="Assets/map3.png" width="40%">
+    <figcaption><b>Map 3</b></figcaption>
+  </figure>
+
+  <figure style="display:inline-block; text-align:center; margin: 10px;">
+    <img src="Assets/map4.png" width="40%">
+    <figcaption><b>Map 4</b></figcaption>
+  </figure>
+
 </p>
 
 
