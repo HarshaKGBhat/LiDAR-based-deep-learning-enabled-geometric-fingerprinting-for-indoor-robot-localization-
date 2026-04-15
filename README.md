@@ -116,7 +116,7 @@ Controls:
 
   <span style="display:inline-block; text-align:center; margin: 10px;">
     <b></b><br>
-    <img src="Assets/Teleop.gif"" width="80%">
+    <img src="Assets/Teleop.gif" width="80%">
   </span>
 </p>
 
