@@ -134,7 +134,7 @@ dataset/raw/
 
   <span style="display:inline-block; text-align:center; margin: 10px;">
     <b></b><br>
-    <img src="Assets/Map1_collection.gif"" width="80%">
+    <img src="Assets/Map1_collection.gif" width="80%">
   </span>
 </p>
 
@@ -142,7 +142,7 @@ dataset/raw/
 
   <span style="display:inline-block; text-align:center; margin: 10px;">
     <b></b><br>
-    <img src="Assets/Map2_collection.gif"" width="80%">
+    <img src="Assets/Map2_collection.gif" width="80%">
   </span>
 </p>
 
@@ -150,7 +150,7 @@ dataset/raw/
 
   <span style="display:inline-block; text-align:center; margin: 10px;">
     <b></b><br>
-    <img src="Assets/Map3_collection.gif"" width="80%">
+    <img src="Assets/Map3_collection.gif" width="80%">
   </span>
 </p>
 
@@ -233,7 +233,7 @@ python3 scripts/localization_inference.py
 
   <span style="display:inline-block; text-align:center; margin: 10px;">
     <b>Performance of different localization methods across maps (MAP 1: Path 1, MAP 2: Path 2, MAP 3: Path 3)</b><br>
-    <img src="Assets/Figure_15.png" width="80%">
+    <img src="Assets/Figure_15.jpg" width="80%">
   </span>
 </p>
 
@@ -242,7 +242,7 @@ python3 scripts/localization_inference.py
 
   <span style="display:inline-block; text-align:center; margin: 10px;">
     <b></b><br>
-    <img src="Assets/Inference_GIF_Map1.gif"" width="80%">
+    <img src="Assets/Inference_GIF_Map1.gif" width="80%">
   </span>
 </p>
 
@@ -250,7 +250,7 @@ python3 scripts/localization_inference.py
 
   <span style="display:inline-block; text-align:center; margin: 10px;">
     <b></b><br>
-    <img src="Assets/Inference_GIF_Map2.gif"" width="80%">
+    <img src="Assets/Inference_GIF_Map2.gif" width="80%">
   </span>
 </p>
 <p align="center">
