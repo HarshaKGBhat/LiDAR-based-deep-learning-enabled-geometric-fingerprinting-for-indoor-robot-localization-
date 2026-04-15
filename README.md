@@ -90,7 +90,7 @@ Full dataset (raw scans, features, CSVs, GT trajectories) is available on Mendel
 
 # Video
 The video provides a full pipeline demonstration of the ConvMLP and recursive EKF localization, including teleoperation, data collection, preprocessing, model training, and inference.
-Video can be viewed here: 👉 [https://youtu.be/qfRTmf15PfY]
+Video can be viewed here: 👉 https://youtu.be/qfRTmf15PfY
 
 # Phase 1 — Data Collection
 1. Connect to TurtleBot3
@@ -101,9 +101,9 @@ ros2 launch turtlebot3_bringup robot.launch.py
 
 
 # 2. Teleoperate the robot
-```
+
 python3 teleop_with_trigger.py
-```
+
 
 Controls:
 - w/x → forward/backward
@@ -279,7 +279,7 @@ python3 scripts/localization_inference.py
 (Currently under review in EAAI Journal)
 
 # 🙌 Acknowledgements
-This work was carried out under the guidance of **Prof. <Dr. Shayok Mukhopadhyay>**, [https://sites.google.com/site/shayok/Home]  
+This work was carried out under the guidance of **Dr. Shayok Mukhopadhyay**, https://sites.google.com/site/shayok/Home  
 Robotics Lab, University of New Haven.
 
 
