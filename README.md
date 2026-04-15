@@ -47,7 +47,8 @@ ConvMLP_LiDAR_Code/
     <b>Map 1</b><br>
     <img src="Assets/Map1.png" width="80%">
   </span>
-
+</p>
+<p align="center">
   <span style="display:inline-block; text-align:center; margin: 10px;">
     <b>Map 2</b><br>
     <img src="Assets/Map2.png" width="80%">
