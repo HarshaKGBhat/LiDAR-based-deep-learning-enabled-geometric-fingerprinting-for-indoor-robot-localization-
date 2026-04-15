@@ -94,13 +94,16 @@ Video can be viewed here: 👉 [https://youtu.be/qfRTmf15PfY]
 
 # Phase 1 — Data Collection
 1. Connect to TurtleBot3
+```
 ssh turtlebot3@<robot_ip>
 ros2 launch turtlebot3_bringup robot.launch.py
+```
 
 
 # 2. Teleoperate the robot
+```
 python3 teleop_with_trigger.py
-
+```
 
 Controls:
 - w/x → forward/backward
@@ -120,8 +123,9 @@ Controls:
 
   
 # 3. Collect LiDAR + Pose Data
+```
 python3 fingerprint_collector_live.py
-
+```
 
 This script automatically logs:
 - 360‑beam LiDAR scan
@@ -157,16 +161,19 @@ dataset/raw/
 
 # 4. Run Cartographer SLAM (for GT pose)
 In separate terminals:
+```
 ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=true
 ros2 bag record -o map1__collection_run /scan /odom /tf /tf_static /imu /cmd_vel
 ros2 run nav2_map_server map_saver_cli -f ~/L_map
-
+```
 
 
 # Phase 2 — Preprocessing
-Run preprocessing (cleaning + augmentation):
-python3 scripts/preprocess.py
 
+Run preprocessing (cleaning + augmentation):
+```
+python3 scripts/preprocess.py
+```
 
 Output is saved to:
 dataset/processed/your_processed.npy
@@ -174,8 +181,9 @@ dataset/processed/your_processed.npy
 
 # Phase 3 — Model Training
 Train the ConvMLP model:
+```
 python3 scripts/train_model.py
-
+```
 Note: The above script contains the model fitting with other ML models like Linear Regression, Ridge Regression, KNN, Random Forest, MLP, Conv1D, and ConvMLP 
 
 
@@ -186,8 +194,9 @@ models/model_xxx.pt
 
 # Phase 4 — Inference (Real‑Time Localization)
 Run inference:
+```
 python3 scripts/localization_inference.py
-
+```
 
 Requirements:
 - Trained model in models/
@@ -196,21 +205,26 @@ This script publishes ML pose estimates and logs metrics.
 
 # AMCL Comparison (Optional)
 Replay rosbag:
+```
 ros2 bag play map1_path2_inference_Lhome__collection_run --rate 1.0
-
+```
 Extract trajectory:
+```
 python3 scripts/trajectory_extractor_AMCL.py \
   --ros-args -p out_csv:=csv/map2_compare.csv -p ml_topic:=/ml_pose
-
+```
 Run AMCL:
+```
 ros2 launch nav2_bringup localization_launch.py map:=/home/robo2/L_map.yaml autostart:=True
-
+```
 Initialize pose:
+```
 ros2 topic pub --once /initialpose geometry_msgs/msg/PoseWithCovarianceStamped "{...}"
-
+```
 Run ML inference:
+```
 python3 scripts/localization_inference.py
-
+```
 
 
 # 📊 Performance Summary
@@ -265,7 +279,8 @@ python3 scripts/localization_inference.py
 (Currently under review in EAAI Journal)
 
 # 🙌 Acknowledgements
-- University of New Haven Robotics Lab
-- Open‑source ROS2 community
+This work was carried out under the guidance of **Prof. <Dr. Shayok Mukhopadhyay>**, [https://sites.google.com/site/shayok/Home]  
+Robotics Lab, University of New Haven.
+
 
 
