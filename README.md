@@ -42,15 +42,19 @@ ConvMLP_LiDAR_Code/
 🗺️ Experimental Environments
 
 <p align="center">
+
   <span style="display:inline-block; text-align:center; margin: 10px;">
-    <figcaption><b>Map 1</b></figcaption>
+    <b>Map 1</b><br>
     <img src="Assets/Map1.png" width="80%">
   </span>
-  <figure style="display:inline-block; text-align:center; margin: 10px;">
-    <figcaption><b>Map 2</b></figcaption>
+
+  <span style="display:inline-block; text-align:center; margin: 10px;">
+    <b>Map 2</b><br>
     <img src="Assets/Map2.png" width="80%">
-  </figure>
+  </span>
+
 </p>
+
 
 <p align="center">
 
