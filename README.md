@@ -60,13 +60,14 @@ ConvMLP_LiDAR_Code/
 <p align="center">
 
   <span style="display:inline-block; text-align:center; margin: 10px;">
-    <b>Map 3 Real Image</b>
+    <b>Map 3 Real Image</b><br>
     <img src="Assets/Map3_real_image.png" width="100%">
   </span>
 </p>
 <p align="center">
+  
   <span style="display:inline-block; text-align:center; margin: 10px;">
-    <b>Map 3 Rviz Image</b>
+    <b>Map 3 Rviz Image</b><br>
     <img src="Assets/Figure_7.png" width="80%">
   </span>
 </p>
