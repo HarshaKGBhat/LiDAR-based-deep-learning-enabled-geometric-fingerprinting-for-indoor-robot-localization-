@@ -12,7 +12,7 @@ This repository provides a complete, reproducible pipeline for LiDAR‑based ind
 
 The pipeline covers data collection → preprocessing → model training → inference.
 
-```md
+```
 📂 Directory Structure
 ConvMLP_LiDAR_Code/
 │
@@ -101,16 +101,15 @@ ros2 launch turtlebot3_bringup robot.launch.py
 
 
 # 2. Teleoperate the robot
-
+```
 python3 teleop_with_trigger.py
-
+```
 
 Controls:
 - w/x → forward/backward
 - a/d → left/right
 - s → stop
 - r → auto‑rotate (36 steps × 10°)
-
 
 <p align="center">
 
