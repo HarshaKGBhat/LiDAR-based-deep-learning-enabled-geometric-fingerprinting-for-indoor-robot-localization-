@@ -42,7 +42,7 @@ ConvMLP_LiDAR_Code/
 🗺️ Experimental Environments
 
 <p align="center">
-  <figure>
+  <figure align = "center">
   <img src="Assets/Map1.png" width="30%">
   <figcaption align="center"><b>Map 1</b></figcaption>
   </figure>
