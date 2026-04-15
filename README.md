@@ -40,11 +40,12 @@ ConvMLP_LiDAR_Code/
 
 
 🗺️ Experimental Environments
-Place your 3 environment images inside Assets/ and reference them like this:
 
 <p align="center">
-  <img src="Assets/Map1.png" width="30%" label = Map1>
+  <img src="Assets/Map1.png" width="30%">
   <img src="Assets/Map2.png" width="30%">
+</p>
+<p align="center">
   <img src="Assets/Map3_real_image.png" width="30%" height = "30%">
   <img src="Assets/Figure_7.png" width="30%">
 </p>
