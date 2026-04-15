@@ -15,6 +15,7 @@ This repository provides a complete, reproducible pipeline for LiDAR‑based ind
 - Comparison against AMCL, Cartographer SLAM, and Odometry
 The pipeline covers data collection → preprocessing → model training → inference.
 
+```md
 📂 Directory Structure
 ConvMLP_LiDAR_Code/
 │
@@ -36,7 +37,10 @@ ConvMLP_LiDAR_Code/
 │
 ├── ros2bags/                    # Optional ROS2 bag files
 │
-└── commands_to_run_pipeline.txt # Command reference for all phases
+└── commands_to_run_pipeline.txt 
+
+```
+
 
 
 🗺️ Experimental Environments
