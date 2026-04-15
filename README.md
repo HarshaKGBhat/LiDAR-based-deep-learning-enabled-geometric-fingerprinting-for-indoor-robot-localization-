@@ -1,0 +1,2 @@
+# LiDAR-based-deep-learning-enabled-geometric-fingerprinting-for-indoor-robot-localization-
+The method developed combines LiDAR scan range data along with proposed eleven handcrafted geometric features, to train a Convolutional Multi-Layer Perceptron (ConvMLP) regression model, for predicting the two-dimensional location of a robot. The predicted pose is further smoothened by using a proposed novel recursive Extended Kalman filter (EKF). 
