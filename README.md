@@ -44,12 +44,12 @@ ConvMLP_LiDAR_Code/
 <p align="center">
 
   <figure style="display:inline-block; text-align:center; margin: 10px;">
-    <img src="Assets/map1.png" width="40%">
+    <img src="Assets/Map1.png" width="40%">
     <figcaption><b>Map 1</b></figcaption>
   </figure>
 
   <figure style="display:inline-block; text-align:center; margin: 10px;">
-    <img src="Assets/map2.png" width="40%">
+    <img src="Assets/Map2.png" width="40%">
     <figcaption><b>Map 2</b></figcaption>
   </figure>
 
@@ -58,12 +58,12 @@ ConvMLP_LiDAR_Code/
 <p align="center">
 
   <figure style="display:inline-block; text-align:center; margin: 10px;">
-    <img src="Assets/map3.png" width="40%">
+    <img src="Assets/Map3_real_image.png" width="40%">
     <figcaption><b>Map 3</b></figcaption>
   </figure>
 
   <figure style="display:inline-block; text-align:center; margin: 10px;">
-    <img src="Assets/map4.png" width="40%">
+    <img src="Assets/Figure_7.png" width="40%">
     <figcaption><b>Map 4</b></figcaption>
   </figure>
 
