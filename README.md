@@ -2,9 +2,9 @@
 The method developed combines LiDAR scan range data with 11 handcrafted geometric features to train a Convolutional Multi-Layer Perceptron (ConvMLP) regression model to predict the two-dimensional location of a robot. The predicted pose is further smoothed by using a proposed novel recursive Extended Kalman filter (EKF). 
 
 # Research Paper
-```
+
 Manuscript can be viewed here: https://unhnewhaven-my.sharepoint.com/:w:/g/personal/hkela1_unh_newhaven_edu/IQAuAnskwEueS7CeqHKH7th9AeFtc-ICicfjuWzPRK6U2go?e=niiJuW
-```
+
 # 📌 Overview
 This repository provides a complete, reproducible pipeline for LiDAR‑based indoor localization using:
 - 360‑beam 2D LiDAR scans
