@@ -1,7 +1,10 @@
 # LiDAR-based-deep-learning-enabled-geometric-fingerprinting-for-indoor-robot-localization-
 The method developed combines LiDAR scan range data with 11 handcrafted geometric features to train a Convolutional Multi-Layer Perceptron (ConvMLP) regression model to predict the two-dimensional location of a robot. The predicted pose is further smoothed by using a proposed novel recursive Extended Kalman filter (EKF). 
 
-
+# Research Paper
+```
+Manuscript can be viewed here: https://unhnewhaven-my.sharepoint.com/:w:/g/personal/hkela1_unh_newhaven_edu/IQAuAnskwEueS7CeqHKH7th9AeFtc-ICicfjuWzPRK6U2go?e=niiJuW
+```
 # 📌 Overview
 This repository provides a complete, reproducible pipeline for LiDAR‑based indoor localization using:
 - 360‑beam 2D LiDAR scans
@@ -91,6 +94,17 @@ Full dataset (raw scans, features, CSVs, GT trajectories) is available on Mendel
 # Video
 The video provides a full pipeline demonstration of the ConvMLP and recursive EKF localization, including teleoperation, data collection, preprocessing, model training, and inference.
 Video can be viewed here: 👉 https://youtu.be/qfRTmf15PfY
+
+<p align="center">
+
+  <span style="display:inline-block; text-align:center; margin: 10px;">
+    <b>Workflow of the proposed DL- LiDAR Localization Method</b><br>
+    <img src="Assets/Figure_1.png" width="100%">
+  </span>
+</p>
+<p align="center">
+  
+
 
 # Phase 1 — Data Collection
 1. Connect to TurtleBot3
