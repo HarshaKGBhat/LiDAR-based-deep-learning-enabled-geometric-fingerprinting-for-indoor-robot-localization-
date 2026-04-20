@@ -3,7 +3,7 @@ The method developed combines LiDAR scan range data with 11 handcrafted geometri
 
 # Research Paper
 
-Manuscript can be viewed here: https://unhnewhaven-my.sharepoint.com/:w:/g/personal/hkela1_unh_newhaven_edu/IQAuAnskwEueS7CeqHKH7th9AeFtc-ICicfjuWzPRK6U2go?e=niiJuW
+Manuscript can be viewed here: https://drive.google.com/file/d/1xy6WocHth1-ao12qHkwbemrizjW7VjKZ/view?usp=sharing
 
 # 📌 Overview
 This repository provides a complete, reproducible pipeline for LiDAR‑based indoor localization using:
