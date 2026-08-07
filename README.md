@@ -2,8 +2,14 @@
 The method developed combines LiDAR scan range data with 11 handcrafted geometric features to train a Convolutional Multi-Layer Perceptron (ConvMLP) regression model to predict the two-dimensional location of a robot. The predicted pose is further smoothed by using a proposed novel recursive Extended Kalman filter (EKF). 
 
 # Research Paper
+Manuscript can be viewed here: https://www.mdpi.com/4013946
 
-Manuscript can be viewed here: https://drive.google.com/file/d/1xy6WocHth1-ao12qHkwbemrizjW7VjKZ/view?usp=sharing
+# 🧠 Citation
+If you use this work in your research, please cite:
+Keladi Ganapathi, H.; Mukhopadhyay, S. LiDAR-Based Deep Learning-Enabled Geometric Fingerprinting for Indoor Robot Localization. Appl. Sci. 2026, 16, 7718. https://doi.org/10.3390/app16157718
+
+# 🤝 Collaboration
+This research was conducted in collaboration with **Dr. Shayok Mukhopadhyay**, https://sites.google.com/site/shayok/Home, at the Robotics Lab, University of New Haven (West Haven, CT, USA).
 
 # 📌 Overview
 This repository provides a complete, reproducible pipeline for LiDAR‑based indoor localization using:
@@ -288,12 +294,7 @@ python3 scripts/localization_inference.py
   </span>
 </p>
 
-# 🧠 Citation
-(Currently under review in a journal)
 
-# 🙌 Acknowledgements
-This work was carried out under the guidance of **Dr. Shayok Mukhopadhyay**, https://sites.google.com/site/shayok/Home  
-Robotics Lab, University of New Haven.
 
 
 
